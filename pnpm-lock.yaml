@@ -49,7 +49,7 @@ importers:
         version: 7.1.0
       '@kazupon/eslint-config':
         specifier: ^0.35.0
-        version: 0.35.0(d563098d2184a9b4caa0cd937d7d5aa1)
+        version: 0.35.0(abdc60c1a70d6851fccca1662beefd99)
       '@kazupon/prettier-config':
         specifier: ^0.1.1
         version: 0.1.1
@@ -87,8 +87,8 @@ importers:
         specifier: ^2.20.1
         version: 2.20.1(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-markdown-preferences:
-        specifier: ^0.10.0
-        version: 0.10.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1))
+        specifier: ^0.11.0
+        version: 0.11.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-module-interop:
         specifier: ^0.3.1
         version: 0.3.1(eslint@9.32.0(jiti@2.5.1))
@@ -506,7 +506,7 @@ importers:
     devDependencies:
       '@types/bun':
         specifier: latest
-        version: 1.2.19(@types/react@19.1.8)
+        version: 1.2.20(@types/react@19.1.8)
 
   playground/composable:
     dependencies:
@@ -1913,8 +1913,8 @@ packages:
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
 
-  '@types/bun@1.2.19':
-    resolution: {integrity: sha512-d9ZCmrH3CJ2uYKXQIUuZ/pUnTqIvLDS0SK7pFmbx8ma+ziH/FRMoAq5bYpRG7y+w1gl+HgyNZbtqgMq4W4e2Lg==}
+  '@types/bun@1.2.20':
+    resolution: {integrity: sha512-dX3RGzQ8+KgmMw7CsW4xT5ITBSCrSbfHc36SNT31EOUg/LA9JWq0VDdEXDRSe1InVWpd2yLUM1FUF/kEOyTzYA==}
 
   '@types/chai@5.2.2':
     resolution: {integrity: sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==}
@@ -1954,9 +1954,6 @@ packages:
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
-
-  '@types/node@22.16.5':
-    resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
 
   '@types/node@22.17.0':
     resolution: {integrity: sha512-bbAKTCqX5aNVryi7qXVMi+OkB3w/OyblodicMbvE38blyAz7GxXf6XYhklokijuPwwVg9sDLKRxt0ZHXQwZVfQ==}
@@ -2526,8 +2523,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  bun-types@1.2.19:
-    resolution: {integrity: sha512-uAOTaZSPuYsWIXRpj7o56Let0g/wjihKCkeRqUBhlLVM/Bt+Fj9xTo+LhC1OV1XDaGkz4hNC80et5xgy+9KTHQ==}
+  bun-types@1.2.20:
+    resolution: {integrity: sha512-pxTnQYOrKvdOwyiyd/7sMt9yFOenN004Y6O4lCcCUoKVej48FS5cvTw9geRaEcB9TsDZaJKAxPTVvi8tFsVuXA==}
     peerDependencies:
       '@types/react': ^19
 
@@ -2995,8 +2992,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-markdown-preferences@0.10.0:
-    resolution: {integrity: sha512-IzSEmckf9RbaOWbQk62aAtH2bTlEeIN8fC6qKj6UQ4yGnLKgcpvaYDUTYQYCk+jWszBX1NQtKsMtKOm7XdsS/g==}
+  eslint-plugin-markdown-preferences@0.11.0:
+    resolution: {integrity: sha512-1BydMLwhvONXx1Am2l7rB50ai8sMpRISG6tJt86/n2IjqDeU+vs5url7Jz0nhJgBQlZFsMOwxLlpQ5e47+ATYA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
       '@eslint/markdown': ^7.1.0
@@ -5729,7 +5726,7 @@ snapshots:
       string-argv: 0.3.2
       type-detect: 4.1.0
 
-  '@kazupon/eslint-config@0.35.0(d563098d2184a9b4caa0cd937d7d5aa1)':
+  '@kazupon/eslint-config@0.35.0(abdc60c1a70d6851fccca1662beefd99)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.32.0(jiti@2.5.1))
       '@eslint/js': 9.32.0
@@ -5748,7 +5745,7 @@ snapshots:
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.38.0(eslint@9.32.0(jiti@2.5.1))(typescript@5.9.2))(eslint-import-resolver-typescript@4.4.4)(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-jsdoc: 52.0.2(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-jsonc: 2.20.1(eslint@9.32.0(jiti@2.5.1))
-      eslint-plugin-markdown-preferences: 0.10.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1))
+      eslint-plugin-markdown-preferences: 0.11.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-module-interop: 0.3.1(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-promise: 7.2.1(eslint@9.32.0(jiti@2.5.1))
       eslint-plugin-regexp: 2.9.1(eslint@9.32.0(jiti@2.5.1))
@@ -6235,9 +6232,9 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@types/bun@1.2.19(@types/react@19.1.8)':
+  '@types/bun@1.2.20(@types/react@19.1.8)':
     dependencies:
-      bun-types: 1.2.19(@types/react@19.1.8)
+      bun-types: 1.2.20(@types/react@19.1.8)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -6277,10 +6274,6 @@ snapshots:
   '@types/mdurl@2.0.0': {}
 
   '@types/ms@2.1.0': {}
-
-  '@types/node@22.16.5':
-    dependencies:
-      undici-types: 6.21.0
 
   '@types/node@22.17.0':
     dependencies:
@@ -6900,9 +6893,9 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  bun-types@1.2.19(@types/react@19.1.8):
+  bun-types@1.2.20(@types/react@19.1.8):
     dependencies:
-      '@types/node': 22.16.5
+      '@types/node': 22.17.0
       '@types/react': 19.1.8
 
   byte-size@9.0.1: {}
@@ -7489,7 +7482,7 @@ snapshots:
     transitivePeerDependencies:
       - '@eslint/json'
 
-  eslint-plugin-markdown-preferences@0.10.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1)):
+  eslint-plugin-markdown-preferences@0.11.0(@eslint/markdown@7.1.0)(eslint@9.32.0(jiti@2.5.1)):
     dependencies:
       '@eslint/markdown': 7.1.0
       eslint: 9.32.0(jiti@2.5.1)
